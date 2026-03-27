@@ -9,7 +9,7 @@
 | 3 | Agent 核心引擎 | ch03-agent-engine.md | Agent 类、事件流模型、工具审批装饰器、懒初始化策略、多步执行循环 | ✅ |
 | 4 | Session 与中间件体系 | ch04-session-middleware.md | Session 状态管理、Compaction 两阶段策略、Retry 退避、Runner/Middleware 函数式组合、Conversation | ✅ |
 | 5 | 工具系统与扩展 | ch05-tools-skills-mcp.md | 内置工具（fs/bash）、Skills 发现与注入、MCP Server 集成、自定义工具 | ✅ |
-| 6 | 子代理系统 | ch06-subagents.md | task 工具生成、深度递减、后台 AgentRegistry、Promise 组合器语义、事件冒泡 | ⏳ |
+| 6 | 子代理系统 | ch06-subagents.md | task 工具生成、深度递减、后台 AgentRegistry、Promise 组合器语义、事件冒泡 | ✅ |
 | 7 | UI 集成层 | ch07-ui-integration.md | UIStream 转换、SSE 数据协议、React hooks/provider、Vue composables/provider、数据部件类型 | ⏳ |
 | 8 | 端到端追踪 | ch08-end-to-end.md | 三个关键场景的完整代码路径追踪：CLI 单轮、Next.js 流式请求、带 Compaction 的长对话 | ⏳ |
 
