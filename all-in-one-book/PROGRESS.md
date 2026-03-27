@@ -11,7 +11,7 @@
 | 5 | 工具系统与扩展 | ch05-tools-skills-mcp.md | 内置工具（fs/bash）、Skills 发现与注入、MCP Server 集成、自定义工具 | ✅ |
 | 6 | 子代理系统 | ch06-subagents.md | task 工具生成、深度递减、后台 AgentRegistry、Promise 组合器语义、事件冒泡 | ✅ |
 | 7 | UI 集成层 | ch07-ui-integration.md | UIStream 转换、SSE 数据协议、React hooks/provider、Vue composables/provider、数据部件类型 | ✅ |
-| 8 | 端到端追踪 | ch08-end-to-end.md | 三个关键场景的完整代码路径追踪：CLI 单轮、Next.js 流式请求、带 Compaction 的长对话 | ⏳ |
+| 8 | 端到端追踪 | ch08-end-to-end.md | 三个关键场景的完整代码路径追踪：CLI 单轮、Next.js 流式请求、带 Compaction 的长对话 | ✅ |
 
 ## 状态说明
 - ✅ 已完成  - 🔄 进行中  - ⏳ 待开始
@@ -37,12 +37,13 @@
 ## 下次续写指引
 
 ### 从哪里继续
-从 Chapter 1 开始写作。
+全部 8 章已完成。
 
 ### 交接备忘
-- 项目是 pnpm monorepo，三个包（core / react / vue）+ 三个示例（cli / nextjs-demo / nuxt-demo）
-- 核心设计哲学：Agent 无状态，Session 有状态；中间件函数式组合；事件流驱动
-- AI SDK 版本为 v5/v6（ai@6.0.97），Zod v4
+- 全书 8 章覆盖了 OpenHarness 的所有核心模块
+- 认知路径：全局视角 → 数据流 → Agent 引擎 → Session/中间件 → 工具 → 子代理 → UI → 端到端验证
+- 所有核心概念首次出现均有解释和配图
+- 所有核心流程均有 Mermaid 图
 
 ### 待验证项
-- 无（首次运行，尚无待验证项）
+- ch08 中的行号为近似值，建议后续对照最新源码核实
